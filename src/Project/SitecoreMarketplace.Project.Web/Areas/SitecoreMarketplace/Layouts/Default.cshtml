@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>@Sitecore.Context.Item["Meta Title"]</title>
+    <meta name="description" content="@Sitecore.Context.Item["Meta Description"]" />
+
+</head>
+<body>
+    @Html.Sitecore().Placeholder("header")
+    @Html.Sitecore().Placeholder("content")
+    @Html.Sitecore().Placeholder("footer")
+</body>
+</html>

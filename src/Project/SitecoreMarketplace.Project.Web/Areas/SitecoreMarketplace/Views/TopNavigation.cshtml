@@ -1,0 +1,10 @@
+﻿@model SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Views.TopNavigationModel
+    
+<header>
+    <span class="header__image">
+        @Html.Sitecore().Field("Image")
+    </span>
+    <span class="header__content">
+        @Html.Sitecore().DynamicPlaceholder("header__content")
+    </span>
+</header>
