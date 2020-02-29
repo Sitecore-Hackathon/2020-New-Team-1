@@ -106,6 +106,8 @@
     <Content Include="App_Config\Include\Foundation\Foundation.Serialization.config" />
     <Content Include="App_Config\Include\Foundation\Foundation.Serialization.Settings.config" />
     <Content Include="App_Config\Include\Foundation\Foundation.Serialization.SitecoreMarketplace.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Serialization.SitecoreMarketplace.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
