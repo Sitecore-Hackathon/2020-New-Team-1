@@ -1,0 +1,14 @@
+﻿---
+ID: "71d5bf29-bb4a-4441-8c15-2c8a7e9111b3"
+Parent: "6ffd7d21-9731-47a5-9e96-5baaa733046e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/SMP/Navigation/Top Navigation/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T140003Z

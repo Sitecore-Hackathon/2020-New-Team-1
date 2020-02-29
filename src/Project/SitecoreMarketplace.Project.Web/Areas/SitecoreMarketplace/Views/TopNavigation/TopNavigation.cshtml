@@ -1,0 +1,13 @@
+﻿@model SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Models.TopNavigationModel
+    
+<header>
+    <span class="header__image">
+        @Html.Sitecore().Field("Image")
+    </span>
+    <span class="header__content">
+        <form method="GET" action="/search">
+            <input type="text" placeholder="@(Model.SearchPlaceholder)" class="input--search-bar" name="searchText" />
+            <input type="submit" value="@(Model.CtaText)" class="input--submit" />
+        </form>
+    </span>
+</header>

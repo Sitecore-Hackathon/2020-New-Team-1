@@ -1,0 +1,14 @@
+﻿---
+ID: "b7326525-ffab-4ccc-a34e-94858fec3c69"
+Parent: "468926b3-8ded-4abe-b791-7b7190d39825"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/SMP/Module
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T152806Z

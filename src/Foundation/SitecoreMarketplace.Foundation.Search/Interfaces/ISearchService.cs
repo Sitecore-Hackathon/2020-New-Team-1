@@ -4,7 +4,7 @@ using SitecoreMarketplace.Foundation.Search.Models;
 
 namespace SitecoreMarketplace.Foundation.Search.Interfaces
 {
-    interface ISearchService
+    public interface ISearchService
     {
         List<ModuleSearchResult> GetModules();
         List<ModuleSearchResult> GetModulesByCategory(string category);

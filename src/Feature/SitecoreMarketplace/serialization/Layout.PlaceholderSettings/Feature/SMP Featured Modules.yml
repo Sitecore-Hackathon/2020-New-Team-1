@@ -1,0 +1,14 @@
+﻿---
+ID: "b92e6e36-90fc-4598-9aa9-284f4d4ccee5"
+Parent: "1b59149d-7ed3-4d58-86a9-32eded8c0368"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/layout/Placeholder Settings/Feature/SMP Featured Modules
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184458Z

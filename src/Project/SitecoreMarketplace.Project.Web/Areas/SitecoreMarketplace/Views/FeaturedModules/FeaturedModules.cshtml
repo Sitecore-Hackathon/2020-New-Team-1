@@ -1,0 +1,38 @@
+﻿@model SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Models.ModulesBlockViewModel
+
+<div class="content">
+    <section class="collection">
+        @if (!string.IsNullOrWhiteSpace(Model.Header))
+        {
+            <h2 class="collection__title">
+                @(Model.Header)
+            </h2>
+        }
+        @if (!string.IsNullOrWhiteSpace(Model.Description))
+        {
+            <p class="colletion__description">
+                @(Model.Description)
+            </p>
+        }
+        
+        <div class="collection__grid">
+            @foreach (var item in Model.SearchResults)
+            {
+                <div class="grid__item">
+                    <figure>
+                        <img src="@(item.ImageUrl)" />
+                    </figure>
+                    <p><a href="/@(item.Id)">@(item.Title)</a></p>
+                    <ul class="rating rating--star">
+                        @for (var i = 0.0; i < item.Rating; i += 1)
+                        {
+                            var modificator = item.Rating > i && item.Rating < i + 1 ? "star--half" : string.Empty;
+
+                            <li class="star @(modificator)" />
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+    </section>
+</div>

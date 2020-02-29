@@ -1,0 +1,25 @@
+﻿---
+ID: "d8db7c07-1f7b-4f12-adb2-ebfea77e3a66"
+Parent: "468926b3-8ded-4abe-b791-7b7190d39825"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/SMP/Category Folder
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder_cubes.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {78CF88BA-6957-4366-8368-12F3CED0184F}
+    {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+    {2BCFEFCB-51A4-4817-B133-3DA23E018B7B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T160940Z
