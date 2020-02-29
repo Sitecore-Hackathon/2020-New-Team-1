@@ -36,6 +36,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{560344
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMarketplace.Foundation.Search", "src\Foundation\SitecoreMarketplace.Foundation.Search\SitecoreMarketplace.Foundation.Search.csproj", "{E7A4C54C-64E8-4737-9AEE-4883B411E7CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMarketplace.Foundation.Comments", "src\Foundation\SitecoreMarketplace.Foundation.Comments\SitecoreMarketplace.Foundation.Comments.csproj", "{98EEC9FE-1749-4577-A306-4B72E1A8BFEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{E7A4C54C-64E8-4737-9AEE-4883B411E7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A4C54C-64E8-4737-9AEE-4883B411E7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A4C54C-64E8-4737-9AEE-4883B411E7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EEC9FE-1749-4577-A306-4B72E1A8BFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EEC9FE-1749-4577-A306-4B72E1A8BFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EEC9FE-1749-4577-A306-4B72E1A8BFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EEC9FE-1749-4577-A306-4B72E1A8BFEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{9C60CEA7-CAE8-4C2A-AB87-CB851E7B4B8B} = {03545938-0F6F-482A-80D1-2F512FAE2956}
 		{5603441E-EA68-47AB-BDFF-7C91A78430CA} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
 		{E7A4C54C-64E8-4737-9AEE-4883B411E7CA} = {5603441E-EA68-47AB-BDFF-7C91A78430CA}
+		{98EEC9FE-1749-4577-A306-4B72E1A8BFEF} = {03545938-0F6F-482A-80D1-2F512FAE2956}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
