@@ -12,11 +12,11 @@ using SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Models;
 
 namespace SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Controllers
 {
-    public class FeaturedModulesControllers : Controller
+    public class FeaturedModulesController : Controller
     {
         private ISearchService _searchService;
 
-        public FeaturedModulesControllers()
+        public FeaturedModulesController()
         {
             _searchService = new SearchService();   
         }
