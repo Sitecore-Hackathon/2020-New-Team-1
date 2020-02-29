@@ -114,6 +114,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\SitecoreMarketplace\Controllers\TopNavigationController.cs" />
     <Compile Include="Areas\SitecoreMarketplace\Views\TopNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -127,7 +128,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\SitecoreMarketplace\Views\TopNavigation.cshtml" />
+    <Content Include="Areas\SitecoreMarketplace\Views\TopNavigation\TopNavigation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Config\Include\Project\SitecoreMarketplace\" />
