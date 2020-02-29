@@ -1,8 +1,8 @@
 ﻿---
-ID: "a0031e5b-16f2-490c-87ab-4417636e5a34"
+ID: "9f69e5e0-626a-45d2-9acf-c97347585a52"
 Parent: "ad71facc-3c23-4df8-a427-672020db5612"
 Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
-Path: /sitecore/templates/Branches/Feature/SMP Settings
+Path: /sitecore/templates/Branches/Feature/SMP
 DB: master
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T162159Z
+      Value: 20200229T171415Z

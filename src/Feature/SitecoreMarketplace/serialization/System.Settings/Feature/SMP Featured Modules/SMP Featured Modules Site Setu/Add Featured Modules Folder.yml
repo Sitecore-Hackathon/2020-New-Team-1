@@ -1,8 +1,8 @@
 ﻿---
-ID: "b9152d58-8e10-4392-9ec2-25b7e9c82aa2"
-Parent: "75cf22d8-773a-4e8a-9cad-e1a5d91d9b4c"
+ID: "22e5c7aa-063d-4c7d-ac70-2d5e8447888d"
+Parent: "3d986cc8-435f-4443-9d25-cb783d58ade3"
 Template: "ea8a3f26-9ccd-443a-95f5-71b868a94bd0"
-Path: /sitecore/system/Settings/Feature/SMP Categories/SMP Categories Site Setup/Add SMP Categories
+Path: /sitecore/system/Settings/Feature/SMP Featured Modules/SMP Featured Modules Site Setup/Add Featured Modules Folder
 DB: master
 SharedFields:
 - ID: "4795a7c6-08a9-4248-86c3-d460062c3a22"
@@ -11,11 +11,11 @@ SharedFields:
   Value: "{15497C63-5946-49F4-B0A2-FE50A600CFAC}"
 - ID: "7868e6bc-525c-4fce-ab8a-77da3e09b171"
   Hint: Name
-  Value: Categories
+  Value: Featured Modules
 - ID: "e62c28f0-9d3b-46e2-8bec-a5e120542499"
   Hint: Template
   Type: Treelist
-  Value: "{A9B42BB6-FCF8-4CE4-B457-2ABF5DD5C662}"
+  Value: "{313D7C23-D78F-43FF-A218-2FCBA3202DD1}"
 Languages:
 - Language: en
   Versions:
@@ -23,7 +23,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T164031Z
+      Value: 20200229T184522Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -1,0 +1,18 @@
+﻿---
+ID: "d388c58b-42e9-4c1b-bd0c-92a8dfca2192"
+Parent: "0455f2d5-1c15-40a7-ba8c-5f2976ecfd63"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/SMP/FeaturedModule
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/SMP/Module/Featured Module
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184127Z

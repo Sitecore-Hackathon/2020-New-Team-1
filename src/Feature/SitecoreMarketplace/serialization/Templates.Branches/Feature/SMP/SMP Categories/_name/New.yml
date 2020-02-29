@@ -1,0 +1,24 @@
+﻿---
+ID: "fbc9af36-7598-4f66-8bd0-463d72ad2864"
+Parent: "1ef72941-905f-4084-ac31-094e0bf168ee"
+Template: "2bcfefcb-51a4-4817-b133-3da23e018b7b"
+Path: /sitecore/templates/Branches/Feature/SMP/SMP Categories/$name/New
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d8a5355-d86c-4a57-9583-2abaf8900e63"
+      Hint: Description
+      Value: New
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T172410Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b5fc2123-bde3-41ab-873c-480b0eb8aef8"
+      Hint: Name
+      Value: New
