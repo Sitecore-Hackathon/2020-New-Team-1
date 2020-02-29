@@ -8,6 +8,15 @@ SharedFields:
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Feature/SMP/Module/Featured Module
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: FeaturedModules
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Controllers.FeaturedModulesController, SitecoreMarketplace.Project.Web
+- ID: "fc5c3451-dfde-4778-9901-5d0b1da1e212"
+  Hint: Area
+  Value: SitecoreMarketplace
 Languages:
 - Language: en
   Versions:
