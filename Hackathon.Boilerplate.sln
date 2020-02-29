@@ -14,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		build.ps1 = build.ps1
 		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection
@@ -42,6 +43,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rating", "Rating", "{953A07FF-19B1-485A-93EE-D5921D57C375}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMarketplace.Foundation.Rating", "src\Foundation\SitecoreMarketplace.Foundation.Rating\SitecoreMarketplace.Foundation.Rating.csproj", "{9841D88D-B9C1-4B42-83A5-DAFE94F7DAD7}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{384EB22B-AD94-452E-A5AD-6E816036629A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMarketplace.Foundation.Serialization", "src\Foundation\SitecoreMarketplace.Foundation.Serialization\SitecoreMarketplace.Foundation.Serialization.csproj", "{F9F4F9C6-9FE0-4AE3-AC9A-CA7C3528AF99}"
