@@ -1,6 +1,7 @@
 ﻿using System.Web.Mvc;
 using SitecoreMarketplace.Foundation.Search.Interfaces;
 using SitecoreMarketplace.Foundation.Search.Services;
+using SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Models;
 
 
 namespace SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Controllers
@@ -17,11 +18,16 @@ namespace SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Controllers
         public ActionResult SearchResults() 
         {
             var searchQuery = Request.QueryString["searchText"];
-            var results = string.IsNullOrWhiteSpace(searchQuery)
+            var searchResults = string.IsNullOrWhiteSpace(searchQuery)
                 ? _searchService.GetModules()
                     : _searchService.GetModulesByTextQuery(searchQuery);
+            
+            var modulesBlock = new ModulesBlockViewModel
+            {
+                SearchResults = searchResults
+            };
                 
-            return View("SearchResults", results);
+            return View("SearchResults", modulesBlock);
         }
     }
 }

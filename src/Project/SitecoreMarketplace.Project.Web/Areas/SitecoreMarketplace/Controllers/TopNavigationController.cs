@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Sitecore;
 using Sitecore.Mvc.Presentation;
-using SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Views;
+using SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Models;
 
 
 namespace SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Controllers

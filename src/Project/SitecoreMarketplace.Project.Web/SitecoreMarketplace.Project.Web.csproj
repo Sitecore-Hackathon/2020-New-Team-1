@@ -111,13 +111,16 @@
     <Content Include="Areas\SitecoreMarketplace\Web.config" />
     <Content Include="Areas\SitecoreMarketplace\Layouts\Default.cshtml" />
     <Content Include="Areas\SitecoreMarketplace\Views\SearchResults\SearchResults.cshtml" />
+    <Content Include="Areas\SitecoreMarketplace\Views\FeaturedModules\FeaturedModules.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\SitecoreMarketplace\Controllers\FeaturedModulesControllers.cs" />
     <Compile Include="Areas\SitecoreMarketplace\Controllers\SearchResultsController.cs" />
     <Compile Include="Areas\SitecoreMarketplace\Controllers\TopNavigationController.cs" />
-    <Compile Include="Areas\SitecoreMarketplace\Views\TopNavigationModel.cs" />
+    <Compile Include="Areas\SitecoreMarketplace\Models\ModulesBlockViewModel.cs" />
+    <Compile Include="Areas\SitecoreMarketplace\Models\TopNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
