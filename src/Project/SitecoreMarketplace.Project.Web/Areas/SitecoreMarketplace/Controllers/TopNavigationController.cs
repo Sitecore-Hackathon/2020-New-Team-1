@@ -14,12 +14,6 @@ namespace SitecoreMarketplace.Project.Web.Areas.SitecoreMarketplace.Controllers
     {
         public ActionResult TopNavigation()
         {
-
-            if (string.IsNullOrEmpty(RenderingContext.Current.Rendering.DataSource))
-            {
-                return View("TopNavigation");
-            }
-
             var item = RenderingContext.Current.Rendering.Item;
 
             TopNavigationModel model = new TopNavigationModel();

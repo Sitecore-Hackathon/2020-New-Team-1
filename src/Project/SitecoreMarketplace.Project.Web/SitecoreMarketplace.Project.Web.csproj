@@ -110,10 +110,12 @@
     <Content Include="Areas\SitecoreMarketplace\Content\Styles\default.css" />
     <Content Include="Areas\SitecoreMarketplace\Web.config" />
     <Content Include="Areas\SitecoreMarketplace\Layouts\Default.cshtml" />
+    <Content Include="Areas\SitecoreMarketplace\Views\SearchResults\SearchResults.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\SitecoreMarketplace\Controllers\SearchResultsController.cs" />
     <Compile Include="Areas\SitecoreMarketplace\Controllers\TopNavigationController.cs" />
     <Compile Include="Areas\SitecoreMarketplace\Views\TopNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -132,6 +134,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Config\Include\Project\SitecoreMarketplace\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Foundation\SitecoreMarketplace.Foundation.Search\SitecoreMarketplace.Foundation.Search.csproj">
+      <Project>{e7a4c54c-64e8-4737-9aee-4883b411e7ca}</Project>
+      <Name>SitecoreMarketplace.Foundation.Search</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
